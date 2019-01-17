@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Food_App.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("FoodApp.Droid.Resource", IsApplication=true)]
 
-namespace Food_App.Droid
+namespace FoodApp.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace Food_App.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Food_App.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::FoodApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{61B31AD3-91D6-48B4-AB43-70847F5FC426}</ProjectGuid>
+    <ProjectGuid>{9996F666-7F5D-44B6-831B-E193EF8C2462}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Food_App.iOS</RootNamespace>
+    <RootNamespace>FoodApp.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Food_App.iOS</AssemblyName>
+    <AssemblyName>FoodApp.iOS</AssemblyName>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -152,9 +152,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Food_App\Food_App.csproj">
-      <Project>{8E8BB45A-92D5-4D01-A843-FCEFF465AEF7}</Project>
-      <Name>Food_App</Name>
+    <ProjectReference Include="..\FoodApp\FoodApp.csproj">
+      <Project>{2476668A-6003-44A8-B099-18825F2A28E2}</Project>
+      <Name>FoodApp</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

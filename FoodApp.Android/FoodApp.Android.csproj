@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{49EBE0ED-E688-444F-9B48-0F550B78C4CF}</ProjectGuid>
+    <ProjectGuid>{B223CD4B-80BF-47EF-BCA1-6E2497BF00E7}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Food_App.Droid</RootNamespace>
-    <AssemblyName>Food_App.Android</AssemblyName>
+    <RootNamespace>FoodApp.Droid</RootNamespace>
+    <AssemblyName>FoodApp.Android</AssemblyName>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -91,9 +91,9 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Food_App\Food_App.csproj">
-      <Project>{8E8BB45A-92D5-4D01-A843-FCEFF465AEF7}</Project>
-      <Name>Food_App</Name>
+    <ProjectReference Include="..\FoodApp\FoodApp.csproj">
+      <Project>{2476668A-6003-44A8-B099-18825F2A28E2}</Project>
+      <Name>FoodApp</Name>
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

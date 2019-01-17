@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Food_App.iOS
+namespace FoodApp.iOS
 {
     public class Application
     {
